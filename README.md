@@ -4,7 +4,7 @@ The program combines the functions of a TF-IDF vectorizer and Cosine Similarity 
 From a given query, extracted from a column of the sample dataset, the objective is to return the 3 most similar texts in the corpus based on the defined metric.
 The program output consists of
 ```
-QUERY >> the query
+QUERY   >> the query
 SIMILAR >> 1st most similar entry (score percentage)
 SIMILAR >> 2nd most similar entry (score percentage)
 SIMILAR >> 3rd most similar entry (score percentage)

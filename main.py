@@ -10,7 +10,7 @@ mfr.fit()
 # Randomly selecting and testing a sample of the data.
 query_samples = data["1"].sample(n=25)
 for query in query_samples:
-    print(f'QUERY >> {query}')
+    print(f'QUERY   >> {query}')
 
     mfr.query(query)
     best_matches = mfr.return_similar()
